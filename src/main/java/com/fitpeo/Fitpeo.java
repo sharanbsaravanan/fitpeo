@@ -99,5 +99,6 @@ public class Fitpeo {
                 Assert.isTrue(reimbursementElement.getText().equals("$110700"),"Reimbursement value is not equal to $110700");
             }
         }
+        driver.quit();
     }
 }
